@@ -1,4 +1,9 @@
-Given n groups of singers(as an array of size n with arr[i] denoting the ith group size) and m microphones available, we had to output the minimum largest group size sharing a single mic. A group could only be divided into two further groups at a time(i.e, in a single division, only two subgroups could be formed. Further these subgroups could also be divided using the same approach). The approach was to use a binary search and check for the optimality of the group size. Eg: input :[100, 60, 80, 40, 30] , m=9 output:40 (groups after division could be as follows [40,40,20,40,20,40,40,40,30]) Time Complexity: O(nlogn)
+
+Given n groups of singers(as an array of size n with arr[i] denoting the ith group size) and m microphones available, we had to output the minimum largest group size sharing a single mic. 
+A group could only be divided into two further groups at a time(i.e, in a single division, only two subgroups could be formed. 
+Further these subgroups could also be divided using the same approach). 
+The approach was to use a binary search and check for the optimality of the group size. 
+Eg: input :[100, 60, 80, 40, 30] , m=9 output:40 (groups after division could be as follows [40,40,20,40,20,40,40,40,30]) Time Complexity: O(nlogn)
 
 // O(n^2)
 
